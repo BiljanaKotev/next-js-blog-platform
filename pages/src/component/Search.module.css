@@ -1,0 +1,25 @@
+.search-bar {
+  margin-top: 10%;
+  border: 3px solid grey;
+  width: 30%;
+  height: 40px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.search-container > input {
+  border-radius: 10px;
+}
+
+.search-container > button {
+  padding: 5px 25px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 10%;
+}

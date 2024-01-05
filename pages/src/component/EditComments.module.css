@@ -1,0 +1,22 @@
+.edit-comment-container {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-comment-save-btn {
+  background: #000000;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px 8px;
+}
+
+.edit-comment-textarea {
+  border: 1px solid black;
+  width: 750px;
+  height: 150px;
+  resize: none;
+}

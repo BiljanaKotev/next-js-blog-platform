@@ -1,0 +1,80 @@
+.auth-form {
+  width: 500px;
+  margin: 100px auto 50px auto;
+}
+
+.auth-form > h1 {
+  text-align: left;
+  font-family: 'Synonym', sans-serif;
+}
+
+.email-container,
+.password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  font-family: 'Synonym', sans-serif;
+  font-weight: 500;
+}
+
+.email-container > label,
+.password-container > label {
+  align-self: flex-start;
+  font-size: 22px;
+}
+
+.email-container > input,
+.password-container > input {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  border: 3px solid grey;
+}
+
+.auth-form > button {
+  width: 490px;
+  margin-top: 25px;
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  background: rgba(13, 135, 211, 0.8);
+  color: white;
+  font-size: 22px;
+}
+
+.auth-form > h1 {
+  margin-bottom: 50px;
+}
+
+.homepage-signup-link {
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 50px;
+  display: block;
+}
+
+.login-error-msg {
+  width: 25%;
+  margin: 0 auto;
+  font-size: 24px;
+  background: #fbe9e9;
+  color: #c91c1c;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .auth-form {
+    width: auto;
+  }
+  .password-container > input,
+  .email-container > input {
+    width: 100%;
+  }
+
+  .auth-form > button {
+    width: 100%;
+  }
+}

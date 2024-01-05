@@ -1,0 +1,60 @@
+.email-container,
+.password-container,
+.name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  font-family: 'Synonym', sans-serif;
+  font-weight: 500;
+}
+
+.name-container > label,
+.email-container > label,
+.password-container > label {
+  align-self: flex-start;
+  font-size: 22px;
+}
+
+.name-container > input,
+.email-container > input,
+.password-container > input {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  border: 3px solid grey;
+}
+
+.homepage-login-link {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.auth-form > h1 {
+  margin-bottom: 50px;
+}
+
+.signup-error-msg {
+  width: 25%;
+  margin: 0 auto;
+  font-size: 24px;
+  background: #fbe9e9;
+  color: #c91c1c;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .auth-form {
+    width: auto;
+  }
+  .password-container > input.email-container > input,
+  .name-container > input {
+    width: 100%;
+  }
+
+  .auth-form > button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,46 @@
+.delete-success-msg-container {
+  display: none;
+}
+
+.user-post-img {
+  width: 800px;
+}
+
+.user-posts-btns-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.user-post-container {
+  margin-top: 150px;
+}
+
+.user-post-container > h1 {
+  width: 800px;
+  max-width: 100%;
+  margin: 50px auto;
+  font-family: 'Synonym', sans-serif;
+}
+
+.user-post-container > p {
+  width: 50%;
+  margin: 5% auto 10% auto;
+  line-height: 2;
+  text-align: left;
+  font-size: 22px;
+  margin-bottom: 100px;
+  font-family: 'Amulya', sans-serif;
+}
+
+.user-post-back-link {
+  margin-bottom: 100px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.fa-arrow-left {
+  margin-right: 15px;
+}

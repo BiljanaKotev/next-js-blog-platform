@@ -1,0 +1,11 @@
+.edit-btn {
+  border: none;
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+
+.user-posts-btns-container {
+  margin-bottom: 100px;
+}
